@@ -1,0 +1,25 @@
+
+.wrapper{
+  width:1130px;
+  height: 700px;
+  margin: 0 auto;
+  /*position: relative;*/
+  background-color:darkblue;
+  display: block;
+
+
+}
+#lightbulb-title{
+  color: white;
+  font-family: orbitron, sans-serif;
+  font-size: 4em;
+  /*margin-left: 400px;
+  margin-right: 300px;*/
+  position: relative;
+  left:350px;
+
+
+}
+#hearts{
+color: white;
+}
