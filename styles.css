@@ -4,7 +4,7 @@
   height: 700px;
   margin: 0 auto;
   /*position: relative;*/
-  background-color:darkblue;
+  background:darkblue;
   display: block;
 
 
@@ -18,8 +18,40 @@
   position: relative;
   left:350px;
 
+}
+.heart-timer-line{
+  display: inline-block;
+}
+
+#hearts {
+color: white;
+}
+
+#statictimer{
+  color: white;
+  font-family: sans-serif;
+  position: relative;
+  left:950px;
+}
+
+#button{
 
 }
-#hearts{
-color: white;
+.card1{
+  width:200px;
+  height: 200px;
+  background: red;
+  display: block;
+  transition: background 1s, transform 1s;
+}
+
+input{
+  width: 200px;
+  height: 200px;
+  display: none;
+}
+
+input:checked + .card{
+  background: green;
+  transform: rotateY(180deg);
 }
