@@ -40,7 +40,7 @@ color: white;
 .card1{
   width:200px;
   height: 200px;
-  background: red;
+  background: steelblue;
   display: block;
   transition: background 1s, transform 1s;
 }
@@ -51,7 +51,7 @@ input{
   display: none;
 }
 
-input:checked + .card{
-  background: green;
+input:checked + .card1{
+  background: lightcoral;
   transform: rotateY(180deg);
 }
