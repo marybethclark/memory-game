@@ -4,7 +4,7 @@
   height: 700px;
   margin: 0 auto;
   /*position: relative;*/
-  background:darkblue;
+  background:#3f51b5;
   display: block;
 
 
@@ -34,14 +34,23 @@ color: white;
   left:950px;
 }
 
+/*.cardspace{
+  width:1130px;
+}*/
 #button{
 
 }
 .card1{
   width:200px;
   height: 200px;
-  background: steelblue;
-  display: block;
+  background:#7986cb;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 2em;
+  color:#7986cb;
+  line-height: 200px;
+  display: inline-block;
+  margin: 2em;
   transition: background 1s, transform 1s;
 }
 
@@ -49,9 +58,44 @@ input{
   width: 200px;
   height: 200px;
   display: none;
+
 }
 
 input:checked + .card1{
-  background: lightcoral;
+  background: #7986cb;
   transform: rotateY(180deg);
+  color:white;
+}
+/*...........end of css for a card.............*/
+}
+.card2{
+  width:200px;
+  height: 200px;
+  background:#7986cb;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 2em;
+  color:#7986cb;
+  line-height: 200px;
+  display: inline-block;
+  margin: 2em;
+  transition: background 1s, transform 1s;
+
+
+}
+
+
+input{
+  width: 200px;
+  height: 200px;
+  display: none;
+
+}
+
+input:checked + .card2{
+  background: #7986cb;
+  transform: rotateY(180deg);
+  color:white;
+
+
 }
