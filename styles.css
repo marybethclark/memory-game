@@ -68,20 +68,18 @@ input:checked + .card1{
 }
 /*...........end of css for a card.............*/
 }
-.card2{
+.card1{
   width:200px;
   height: 200px;
-  background:#7986cb;
+  background:orange;
   border-radius: 10px;
   text-align: center;
   font-size: 2em;
-  color:#7986cb;
+  color:#purple;
   line-height: 200px;
   display: inline-block;
   margin: 2em;
   transition: background 1s, transform 1s;
-
-
 }
 
 
@@ -92,7 +90,7 @@ input{
 
 }
 
-input:checked + .card2{
+input:checked + .card1{
   background: #7986cb;
   transform: rotateY(180deg);
   color:white;
