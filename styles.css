@@ -1,7 +1,7 @@
 
 .wrapper{
-  width:1130px;
-  height: 700px;
+  width:1365px;
+  height: 1200px;
   margin: 0 auto;
   /*position: relative;*/
   background:#3f51b5;
@@ -40,9 +40,9 @@ color: white;
 #button{
 
 }
-.card1{
-  width:200px;
-  height: 200px;
+.card{
+  width:16.66%;
+  height:16.66%;
   background:#7986cb;
   border-radius: 10px;
   text-align: center;
@@ -50,8 +50,8 @@ color: white;
   color:#7986cb;
   line-height: 200px;
   display: inline-block;
-  margin: 2em;
-  transition: background 1s, transform 1s;
+  margin: .3px;
+  transition: background .5s, transform .5s;
 }
 
 input{
@@ -61,39 +61,9 @@ input{
 
 }
 
-input:checked + .card1{
+input:checked + .card{
   background: #7986cb;
   transform: rotateY(180deg);
   color:white;
 }
 /*...........end of css for a card.............*/
-}
-.card1{
-  width:200px;
-  height: 200px;
-  background:orange;
-  border-radius: 10px;
-  text-align: center;
-  font-size: 2em;
-  color:#purple;
-  line-height: 200px;
-  display: inline-block;
-  margin: 2em;
-  transition: background 1s, transform 1s;
-}
-
-
-input{
-  width: 200px;
-  height: 200px;
-  display: none;
-
-}
-
-input:checked + .card1{
-  background: #7986cb;
-  transform: rotateY(180deg);
-  color:white;
-
-
-}
