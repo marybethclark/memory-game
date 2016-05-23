@@ -2,7 +2,7 @@
 .wrapper{
   width:1045px;
   height: 1200px;
-  margin: 0 auto;
+  margin: auto;
   /*position: relative;*/
   background:#3f51b5;
   display: block;
