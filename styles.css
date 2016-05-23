@@ -1,14 +1,21 @@
 
 .wrapper{
-  width:1365px;
+  width:1045px;
   height: 1200px;
   margin: 0 auto;
   /*position: relative;*/
   background:#3f51b5;
   display: block;
-
-
 }
+
+  /*.wrapper-index{
+    width:1145px;
+    height: 1200px;
+    margin: 0 auto;
+    background:#30B7D4;
+    display: block;
+  }*/
+
 #lightbulb-title{
   color: white;
   font-family: orbitron, sans-serif;
@@ -17,8 +24,8 @@
   margin-right: 300px;*/
   position: relative;
   left:350px;
-
 }
+
 .heart-timer-line{
   display: inline-block;
 }
@@ -41,7 +48,7 @@ color: white;
 
 }
 .card{
-  width:16.66%;
+  width:14%;
   height:16.66%;
   background:#7986cb;
   border-radius: 10px;
@@ -50,7 +57,7 @@ color: white;
   color:#7986cb;
   line-height: 200px;
   display: inline-block;
-  margin: .3px;
+  margin: .2px;
   transition: background .5s, transform .5s;
 }
 
@@ -67,3 +74,44 @@ input:checked + .card{
   color:white;
 }
 /*...........end of css for a card.............*/
+.spacing-box{
+  width:1045px;
+  height:700px;
+
+
+}
+#newgame{
+  color: white;
+  text-align: center;
+    line-height: 50px;
+  font-size: 2em;
+  font-family: sans-serif;
+
+}
+
+#easy{
+  color: white;
+  text-align: center;
+    line-height: 50px;
+  font-size: 1em;
+  font-family: sans-serif;
+  width: 307px;
+  height: 50px;
+  display: block;
+  margin: auto;
+  border: 3px solid white;
+
+}
+
+#hard{
+  color: white;
+  text-align: center;
+    line-height: 50px;
+  font-size: 1em;
+  font-family: sans-serif;
+  width: 307px;
+  height: 50px;
+  display: block;
+  margin: auto;
+  border: 3px solid white;
+}
